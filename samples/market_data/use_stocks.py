@@ -1,4 +1,18 @@
-"""Demonstrates how to use the StockHistoricalData service from the Alpaca API."""
+"""Demonstrates how to use the StockHistoricalData service from the Alpaca API.
+
+This script showcases the usage of the StockHistoricalDataClient class from the
+Alpaca API to retrieve historical stock data and latest stock information. It
+demonstrates how to make requests for stock quotes, stock bars, and the latest
+bar for a specific stock.
+
+The script reads API credentials from a configuration file, initializes the
+StockHistoricalDataClient, and makes requests using the StockQuotesRequest,
+StockBarsRequest, and StockLatestBarRequest classes. The retrieved data is
+then printed to the console.
+
+Note: The code contains commented-out print statements that demonstrate
+different ways to access and display the retrieved data.
+"""
 
 from datetime import datetime
 from configparser import ConfigParser

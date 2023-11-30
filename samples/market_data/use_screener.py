@@ -1,4 +1,11 @@
-"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API."""
+"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+
+This Python script demonstrates how to use the Alpaca API to fetch and print data
+about the most active stocks and market movers. It shows how to initialize the
+ScreenerClient, create a MostActivesRequest or MarketMoversRequest object with
+the desired parameters, and retrieve the data using the get_most_actives or
+get_market_movers methods.
+"""
 
 from configparser import ConfigParser
 from alpaca.data.requests import MostActivesRequest

@@ -1,4 +1,17 @@
-"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API."""
+"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+
+This script shows an example of how to use the Alpaca API to retrieve news data for
+a specific symbol, in this case, Microsoft (MSFT). It demonstrates how to initialize
+the NewsClient, create a NewsRequest object with the desired parameters, and retrieve
+news data using the get_news method. It also shows how to paginate through the news
+articles using the next_page_token.
+
+Note: This script assumes that the necessary credentials are stored in a configuration
+file named 'config.ini' located in the '.config' directory.
+
+Example usage:
+    python use_news.py
+"""
 
 from configparser import ConfigParser
 from alpaca.data.requests import NewsRequest

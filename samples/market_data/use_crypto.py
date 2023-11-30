@@ -1,4 +1,13 @@
-"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API."""
+"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+
+This script showcases the usage of the CryptoHistoricalData service from the Alpaca
+API. It demonstrates how to retrieve historical data, such as bars, trades, and
+orderbook snapshots, for a specified cryptocurrency symbol within a given time range.
+
+The script utilizes the CryptoHistoricalDataClient class from the Alpaca Python SDK
+to interact with the Alpaca API. It requires a valid API key and secret key, which
+are read from a configuration file named 'config.ini'.
+"""
 
 from datetime import datetime
 from configparser import ConfigParser

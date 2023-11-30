@@ -1,6 +1,5 @@
 """Demonstrates how to use the CryptoHistoricalData service from the Alpaca API."""
 
-from pprint import pprint
 from configparser import ConfigParser
 from alpaca.data.requests import MostActivesRequest
 from alpaca.data.requests import MarketMoversRequest

@@ -1,8 +1,6 @@
 """Demonstrates how to use the CryptoHistoricalData service from the Alpaca API."""
 
-from datetime import datetime
 from configparser import ConfigParser
-from alpaca.data.timeframe import TimeFrame
 from alpaca.data.requests import NewsRequest
 from alpaca.data.historical.news import NewsClient
 

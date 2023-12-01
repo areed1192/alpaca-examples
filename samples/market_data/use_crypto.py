@@ -7,6 +7,14 @@ orderbook snapshots, for a specified cryptocurrency symbol within a given time r
 The script utilizes the CryptoHistoricalDataClient class from the Alpaca Python SDK
 to interact with the Alpaca API. It requires a valid API key and secret key, which
 are read from a configuration file named 'config.ini'.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_crypto.py
 """
 
 from datetime import datetime

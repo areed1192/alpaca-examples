@@ -5,6 +5,14 @@ about the most active stocks and market movers. It shows how to initialize the
 ScreenerClient, create a MostActivesRequest or MarketMoversRequest object with
 the desired parameters, and retrieve the data using the get_most_actives or
 get_market_movers methods.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_screener.py
 """
 
 from configparser import ConfigParser

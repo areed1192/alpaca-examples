@@ -1,3 +1,18 @@
+"""Demonstrates how to use the TradingClient to get asset information.
+
+This script showcases how to use the TradingClient class from the Alpaca API
+to retrieve asset information. It demonstrates how to initialize the TradingClient,
+authenticate using API keys, and make requests to get asset data for crypto assets,
+stocks assets, and a specific asset.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_assets.py
+"""
 from configparser import ConfigParser
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import GetAssetsRequest

@@ -10,8 +10,14 @@ StockHistoricalDataClient, and makes requests using the StockQuotesRequest,
 StockBarsRequest, and StockLatestBarRequest classes. The retrieved data is
 then printed to the console.
 
-Note: The code contains commented-out print statements that demonstrate
-different ways to access and display the retrieved data.
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'. The code contains commented-out print statements that
+demonstrate different ways to access and display the retrieved data.
+
+Example usage:
+    python use_stocks.py
 """
 
 from datetime import datetime

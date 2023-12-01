@@ -32,15 +32,27 @@ After running that command, the dependencies should be installed.
 
 ## Example Files
 
-- Market Data
-  - `use_crypto.py`
-    - Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
-  - `use_news.py`
-    - Demonstrates how to use the NewsRequest service from the Alpaca API.
-  - `use_screener.py`
-    - Demonstrates how to use the ScreenerClient service from the Alpaca API.
-  - `use_stocks.py`
-    - Demonstrates how to use the StockHistoricalData service from the Alpaca API.
+**Market Data:**
+
+- `use_crypto.py`
+  - Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+- `use_news.py`
+  - Demonstrates how to use the NewsRequest service from the Alpaca API.
+- `use_screener.py`
+  - Demonstrates how to use the ScreenerClient service from the Alpaca API.
+- `use_stocks.py`
+  - Demonstrates how to use the StockHistoricalData service from the Alpaca API.
+
+**Trading:**
+
+- `use_accounts.py`
+  - Demonstrates how to use the TradingClient to get the account and account configurations.
+- `use_assets.py`
+  - Demonstrates how to use the TradingClient to get asset information.
+- `use_corporate_accouncements.py`
+  - Demonstrates how to use the TradingClient to get corporate announcements.
+- `use_orders.py`
+  - Demonstrates how to use the TradingClient to create, submit, delete, query, and replace orders.
 
 ## Support These Projects
 

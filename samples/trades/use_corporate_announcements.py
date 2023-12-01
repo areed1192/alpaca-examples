@@ -1,3 +1,18 @@
+"""Demonstrates how to use the TradingClient to get corporate announcements.
+
+This script shows an example of using the TradingClient class from the alpaca.trading.client
+module to interact with the Alpaca API. It retrieves corporate announcements using the
+provided API key and secret key from a configuration file. The retrieved corporate
+announcements are then printed to the console.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_corporate_announcements.py
+"""
 from datetime import date
 from configparser import ConfigParser
 from alpaca.trading.client import TradingClient

@@ -6,8 +6,10 @@ the NewsClient, create a NewsRequest object with the desired parameters, and ret
 news data using the get_news method. It also shows how to paginate through the news
 articles using the next_page_token.
 
-Note: This script assumes that the necessary credentials are stored in a configuration
-file named 'config.ini' located in the '.config' directory.
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
 
 Example usage:
     python use_news.py

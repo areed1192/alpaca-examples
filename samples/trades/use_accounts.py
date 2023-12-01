@@ -1,3 +1,19 @@
+"""Demonstrates how to use the TradingClient to get the account and account configurations.
+
+This script shows an example of using the TradingClient class from the alpaca.trading.client
+module to interact with the Alpaca API. It retrieves the account information and account
+configurations using the provided API key and secret key from a configuration file. The
+retrieved account information and configurations are then printed to the console.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_accounts.py
+"""
+
 from configparser import ConfigParser
 from alpaca.trading.client import TradingClient
 

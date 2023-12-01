@@ -1,4 +1,17 @@
+"""Demonstrates how to use the TradingClient to create, submit, delete, query, and replace orders.
 
+This script shows an example of using the TradingClient class from the alpaca.trading.client
+module to interact with the Alpaca API. It creates an order request, submits the order,
+queries the order, replaces the order, and finally deletes the order.
+
+Note:
+-----
+It requires a valid API key and secret key, which are read from a configuration
+file named 'config.ini'.
+
+Example usage:
+    python use_orders.py
+"""
 from configparser import ConfigParser
 from alpaca.trading.client import TradingClient
 from alpaca.trading.requests import OrderRequest

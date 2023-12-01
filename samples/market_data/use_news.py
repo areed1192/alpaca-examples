@@ -1,4 +1,4 @@
-"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+"""Demonstrates how to use the NewsRequest service from the Alpaca API.
 
 This script shows an example of how to use the Alpaca API to retrieve news data for
 a specific symbol, in this case, Microsoft (MSFT). It demonstrates how to initialize

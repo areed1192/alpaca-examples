@@ -1,4 +1,4 @@
-"""Demonstrates how to use the CryptoHistoricalData service from the Alpaca API.
+"""Demonstrates how to use the ScreenerClient service from the Alpaca API.
 
 This Python script demonstrates how to use the Alpaca API to fetch and print data
 about the most active stocks and market movers. It shows how to initialize the

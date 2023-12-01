@@ -1,0 +1,2 @@
+# This is the version that was used with the example code.
+alpaca-py==0.13.3
